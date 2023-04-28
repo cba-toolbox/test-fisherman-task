@@ -1,10 +1,9 @@
 /* デモ用のfisherman課題 */
 /* 教示 */
-/*元論文では釣った魚をリリースしていることが教示されていたので，それを追加しました。また，漁師が常に同じ湖で釣りをしているのか否かがわかりにくい課題だと感じました。*/
 var instructions = {
-  type: jsPsychHtmlKeyboardResponse,
-  stimulus: "<p style='text-align:left'>魚はどちらの湖から釣れたでしょうか？<br>漁師は釣った魚をもとの湖に戻します。<br>何かキーを押すと課題が始まります。</p>",
-  post_trial_gap: 1000,
+  type: jsPsychHtmlButtonResponse,
+  stimulus: "<p style='text-align:left'>湖Aには，赤い魚が８割，黒い魚が２割います。<br>湖Bには，赤い魚が２割，黒い魚が８割います。<br><br>これから釣り人が釣った魚を見せます。<br>魚がどちらの湖から釣れたかスライダーを動かして示してください。<br>なお，釣り人は釣った魚はもとの湖に戻します。</p>",
+  choices: ['次へ進む'],
 };
 
 /*刺激の設定*/
@@ -14,11 +13,11 @@ var stimuli = [
   {stimulus: 'fisherman/stimuli/fish03.png'},
   {stimulus: 'fisherman/stimuli/fish04.png'},
   {stimulus: 'fisherman/stimuli/fish05.png'},
-  {stimulus: 'fisherman/stimuli/fish06.png'},
-  {stimulus: 'fisherman/stimuli/fish07.png'},
-  {stimulus: 'fisherman/stimuli/fish08.png'},
-  {stimulus: 'fisherman/stimuli/fish09.png'},
-  {stimulus: 'fisherman/stimuli/fish10.png'},
+  //{stimulus: 'fisherman/stimuli/fish06.png'},
+  //{stimulus: 'fisherman/stimuli/fish07.png'},
+  //{stimulus: 'fisherman/stimuli/fish08.png'},
+  //{stimulus: 'fisherman/stimuli/fish09.png'},
+  //{stimulus: 'fisherman/stimuli/fish10.png'},
 ];
 
 /*fisherman課題*/
