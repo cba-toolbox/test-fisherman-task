@@ -28,7 +28,6 @@ var fisherman = {
     stimulus: jsPsych.timelineVariable('stimulus'),
     labels: ['湖A', '湖B'],
     prompt: "<p>どちらの湖から釣れたでしょうか？</p>",
-    stimulus_width:100,
     min: 0,
     max: 100,
     button_label:"次へ",
