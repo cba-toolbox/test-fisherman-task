@@ -13,11 +13,6 @@ var stimuli = [
   {stimulus: 'fisherman/stimuli/fish03.png'},
   {stimulus: 'fisherman/stimuli/fish04.png'},
   {stimulus: 'fisherman/stimuli/fish05.png'},
-  //{stimulus: 'fisherman/stimuli/fish06.png'},
-  //{stimulus: 'fisherman/stimuli/fish07.png'},
-  //{stimulus: 'fisherman/stimuli/fish08.png'},
-  //{stimulus: 'fisherman/stimuli/fish09.png'},
-  //{stimulus: 'fisherman/stimuli/fish10.png'},
 ];
 
 /*fisherman課題*/
@@ -29,7 +24,7 @@ var fisherman = {
     labels: ['湖A', '湖B'],
     prompt: "<p>どちらの湖から釣れたでしょうか？</p>",
     slider_width: '100%',
-    stimulus_width: 600,
+    stimulus_width: null,
     min: 0,
     max: 100,
     button_label:"次へ",
